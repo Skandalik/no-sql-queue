@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  redis-cli:
+    image: redis:4.0-alpine
+    entrypoint:
+      - 'redis-cli'
+      - '-h'
+      - 'redis'
